@@ -19,7 +19,7 @@ RUN apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/co
 
 #Install Snapweb
 RUN \
-    wget https://github.com/badaix/snapweb/releases/download/v0.9.1/snapweb.zip && \
+    wget https://github.com/badaix/snapweb/releases/download/v0.8.0/snapweb.zip && \
     unzip -o snapweb.zip -d /usr/share/snapserver/snapweb/ && \
     rm snapweb.zip
 
